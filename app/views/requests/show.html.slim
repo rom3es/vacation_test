@@ -1,0 +1,21 @@
+p#notice
+  = notice
+p
+  strong
+    | Firstname:
+  = @request.firstname
+p
+  strong
+    | Lastname:
+  = @request.lastname
+p
+  strong
+    | Days:
+  = @request.days
+p
+  strong
+    | Out of country:
+  = @request.out_of_country
+= link_to 'Edit', edit_request_path(@request)
+|  | 
+= link_to 'Back', requests_path

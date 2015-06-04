@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: requests
+#
+#  id             :integer          not null, primary key
+#  firstname      :string           not null
+#  lastname       :string           not null
+#  days           :integer          not null
+#  out_of_country :boolean
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  firstname: MyString
+  lastname: MyString
+  days: 1
+  out_of_country: false
+
+two:
+  firstname: MyString
+  lastname: MyString
+  days: 1
+  out_of_country: false
